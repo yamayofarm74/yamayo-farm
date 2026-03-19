@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>やまよ農園 | 千葉県いすみ市の梨農園</title>
+
+<style>
+body{
+margin:0;
+font-family: "Hiragino Mincho ProN", serif;
+background:#f6f2ea;
+color:#333;
+line-height:1.8;
+}
+
+header{
+padding:20px;
+text-align:center;
+font-size:22px;
+}
+
+.hero{
+height:80vh;
+background:url("https://images.unsplash.com/photo-1567306226416-28f0efdc88ce") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.section{
+padding:60px 20px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.varieties{
+display:grid;
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.button{
+display:block;
+text-align:center;
+padding:15px;
+background:#c9a74d;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+font-size:14px;
+color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+やまよ農園
+</header>
+
+<section class="hero">
+<div>
+<h1>いすみの大地で<br>梨を育てる</h1>
+<p>千葉県いすみ市の自然の中で丁寧に育てた梨</p>
+</div>
+</section>
+
+<section class="section">
+<h2>やまよ農園について</h2>
+<p>
+千葉県いすみ市の豊かな自然の中で、
+やまよ農園は梨を専門に栽培しています。<br><br>
+一つひとつの果実に心を込めて育て、
+みずみずしく甘い梨をお届けしています。
+</p>
+</section>
+
+<section class="section">
+<h2>栽培している梨</h2>
+
+<div class="varieties">
+
+<div class="card">
+<h3>幸水</h3>
+<p>7月下旬〜8月上旬<br>
+果汁が多く、甘みと酸味のバランスが良い人気の梨。</p>
+</div>
+
+<div class="card">
+<h3>豊水</h3>
+<p>8月下旬〜9月上旬<br>
+甘みが強く、濃厚な味わいが特徴。</p>
+</div>
+
+<div class="card">
+<h3>あきづき</h3>
+<p>8月下旬〜9月中旬<br>
+大玉で糖度が高く、贈答用にも人気。</p>
+</div>
+
+</div>
+
+<a href="#" class="button">BASEショップで購入</a>
+
+</section>
+
+<section class="section">
+<h2>農園情報</h2>
+<p>
+やまよ農園<br>
+千葉県いすみ市<br><br>
+産地直送で新鮮な梨をお届けします。
+</p>
+</section>
+
+<footer>
+© やまよ農園
+</footer>
+
+</body>
+</html
