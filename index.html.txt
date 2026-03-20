@@ -22,7 +22,7 @@ font-size:22px;
 
 .hero{
 height:80vh;
-background:url("https://images.unsplash.com/photo-1567306226416-28f0efdc88ce") center/cover;
+background:url("nashi.jpg") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
